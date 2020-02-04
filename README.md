@@ -1,12 +1,21 @@
+## Comandos git
+
+```
 git log
 git whatchanged
 git whatchanged -p
+```
 
 git remote add nomedorepositorio
 ou
 git remote add origin - Com isso, você está indicando que o repositório Git local se conecta com um repositório remoto através do alias ou atalho origin cujo endereço real é 
 
-git push - para enviar as alterações para o repositório remoto
+***O que faz:*** Envia as alterações locais para o repositório remoto
+```
+git push
+```
+
+Envia as alterações locais para o repositório remoto
 
 Outra alternativa é utilizar, no primeiro push, a opção -u ou --set-upstream. Ela atrela a branch remota à local, fazendo com que não seja mais necessário passar como parâmetros a origem e a branch no comando push, que fica então assim: git push.
 
